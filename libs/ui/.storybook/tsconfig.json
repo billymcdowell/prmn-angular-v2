@@ -1,0 +1,25 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "@billy_mcdowell/prmn-angular-v2": [
+        "../src/index.ts"
+      ],
+      "@billy_mcdowell/prmn-angular-v2/*": [
+        "../src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["../**/*.spec.ts"],
+  "include": [
+    "../src/**/*.stories.ts",
+    "../src/**/*.stories.js",
+    "../src/**/*.stories.jsx",
+    "../src/**/*.stories.tsx",
+    "../src/**/*.stories.mdx",
+    "*.js",
+    "*.ts"
+  ]
+}
