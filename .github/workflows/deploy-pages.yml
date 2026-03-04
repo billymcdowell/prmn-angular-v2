@@ -31,7 +31,7 @@ jobs:
         run: npm ci --legacy-peer-deps
 
       - name: Build
-        run: npx nx build prmn-angular-v2 --configuration=production --base-href=/${{ github.event.repository.name }}/
+        run: npx nx build-storybook --configuration=production --base-href=/${{ github.event.repository.name }}/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -39,7 +39,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist/apps/prmn-angular-v2/browser
+          path: dist/storybook/ui
 
   deploy:
     environment:
