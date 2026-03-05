@@ -36,7 +36,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        run: npx nx build-storybook --configuration=production --base-href=/${{ github.event.repository.name }}/
+        run: pnpm exec nx run ui:build-storybook --configuration=ci
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
