@@ -1,3 +1,4 @@
+// .storybook/main.ts
 import type { StorybookConfig } from '@storybook/angular';
 
 const config: StorybookConfig = {
@@ -12,10 +13,11 @@ const config: StorybookConfig = {
     options: {},
   },
   webpackFinal: async (config) => {
-    // Use relative asset paths so Storybook works from any subfolder (e.g. GitHub Pages `/prmn-angular-v2/`)
     config.output = {
       ...(config.output ?? {}),
-      publicPath: './',
+      publicPath: process.env['NODE_ENV'] === 'production' 
+        ? '/prmn-angular-v2/' 
+        : '/',
     };
     return config;
   },
