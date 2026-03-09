@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmSidebar } from './hlm-sidebar';
 import { HlmSidebarImports } from '../index';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { HlmSkeletonImports } from '@billy_mcdowell/prmn-angular-v2/skeleton';
+import { HlmIconImports } from '../../icon/src';
+import { HlmSkeletonImports } from '../../skeleton/src';
 import { provideIcons } from '@ng-icons/core';
 import { lucideHome, lucideSettings, lucideUser, lucideFileText } from '@ng-icons/lucide';
 

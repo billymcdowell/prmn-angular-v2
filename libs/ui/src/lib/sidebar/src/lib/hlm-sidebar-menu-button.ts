@@ -1,8 +1,8 @@
 import { type BooleanInput } from '@angular/cdk/coercion';
 import { booleanAttribute, computed, Directive, effect, inject, input } from '@angular/core';
 import { BrnTooltip, provideBrnTooltipDefaultOptions } from '@spartan-ng/brain/tooltip';
-import { DEFAULT_TOOLTIP_CONTENT_CLASSES } from '@billy_mcdowell/prmn-angular-v2/tooltip';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { DEFAULT_TOOLTIP_CONTENT_CLASSES } from '../../../tooltip/src/lib/hlm-tooltip';
+import { classes } from '../../../utils/src/lib/hlm';
 import { cva } from 'class-variance-authority';
 import { HlmSidebarService } from './hlm-sidebar.service';
 import { injectHlmSidebarConfig } from './hlm-sidebar.token';

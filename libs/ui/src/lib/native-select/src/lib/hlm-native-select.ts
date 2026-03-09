@@ -14,7 +14,7 @@ import { type ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideChevronDown } from '@ng-icons/lucide';
 import type { ChangeFn, TouchFn } from '@spartan-ng/brain/forms';
-import { classes, hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes, hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 
 // TODO support BrnFormFieldControl

@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, computed, contentChild, inject, inp
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideChevronDown } from '@ng-icons/lucide';
 import { BrnSelect, BrnSelectTrigger } from '@spartan-ng/brain/select';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmIcon } from '../../../icon/src/lib/hlm-icon';
+import { hlm } from '../../../utils/src/lib/hlm';
 import { cva } from 'class-variance-authority';
 import type { ClassValue } from 'clsx';
 

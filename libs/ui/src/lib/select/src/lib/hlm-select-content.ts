@@ -1,7 +1,7 @@
 import type { BooleanInput } from '@angular/cdk/coercion';
 import { Directive, booleanAttribute, input } from '@angular/core';
 import { injectExposedSideProvider, injectExposesStateProvider } from '@spartan-ng/brain/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmSelectContent], hlm-select-content',

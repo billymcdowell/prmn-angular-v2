@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/angular';
 import { Component } from '@angular/core';
 import { HlmToaster } from './hlm-toaster';
 import { HlmToasterImports } from '../index';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButtonImports } from '../../button/src';
 import { toast } from 'ngx-sonner';
 
 @Component({

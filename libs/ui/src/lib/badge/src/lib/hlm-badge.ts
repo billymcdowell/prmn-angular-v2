@@ -1,5 +1,5 @@
 import { Directive, input } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { type VariantProps, cva } from 'class-variance-authority';
 
 const badgeVariants = cva(

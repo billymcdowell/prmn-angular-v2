@@ -8,7 +8,7 @@ import {
 	signal,
 	viewChild,
 } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import {
 	EmblaCarouselDirective,
 	type EmblaEventType,

@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, contentChild, contentChildren, effect } from '@angular/core';
 import { BrnFormFieldControl } from '@spartan-ng/brain/form-field';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { HlmError } from './hlm-error';
 
 @Component({

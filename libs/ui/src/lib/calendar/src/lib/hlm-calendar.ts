@@ -15,10 +15,10 @@ import { lucideChevronLeft, lucideChevronRight } from '@ng-icons/lucide';
 import { BrnCalendar, BrnCalendarImports, injectBrnCalendarI18n, type Weekday } from '@spartan-ng/brain/calendar';
 import { injectDateAdapter } from '@spartan-ng/brain/date-time';
 import { BrnSelectImports } from '@spartan-ng/brain/select';
-import { buttonVariants } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { HlmSelectImports } from '@billy_mcdowell/prmn-angular-v2/select';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { buttonVariants } from '../../../button/src/lib/hlm-button';
+import { HlmIcon } from '../../../icon/src/lib/hlm-icon';
+import { HlmSelectImports } from '../../../select/src';
+import { hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 
 @Component({

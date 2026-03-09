@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { provideHlmIconConfig } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { provideHlmIconConfig } from '../../../icon/src/lib/hlm-icon.token';
 
 @Directive({
 	selector: '[hlmAlertIcon]',

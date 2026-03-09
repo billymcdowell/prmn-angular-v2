@@ -1,6 +1,6 @@
 // src/app/directives/hlm-table-directives.ts
 import { computed, Directive, inject, InjectionToken, input, type ValueProvider } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 // Configuration Interface and InjectionToken
 export const HlmTableConfigToken = new InjectionToken<HlmTableVariant>('HlmTableConfig');

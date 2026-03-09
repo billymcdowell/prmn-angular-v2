@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnAutocompleteEmpty } from '@spartan-ng/brain/autocomplete';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmAutocompleteEmpty],hlm-autocomplete-empty',

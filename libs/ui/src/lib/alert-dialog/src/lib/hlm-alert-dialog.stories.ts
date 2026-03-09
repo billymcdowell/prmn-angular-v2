@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmAlertDialog } from './hlm-alert-dialog';
-import { HlmAlertDialogImports } from '@billy_mcdowell/prmn-angular-v2/alert-dialog';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmAlertDialogImports } from '../../alert-dialog/src';
+import { HlmButtonImports } from '../../button/src';
 
 const meta: Meta<HlmAlertDialog> = {
   component: HlmAlertDialog,

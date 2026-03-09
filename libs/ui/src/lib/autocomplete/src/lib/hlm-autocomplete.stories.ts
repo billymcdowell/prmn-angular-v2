@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { Component, computed, input, signal } from '@angular/core';
 import { HlmAutocompleteInput } from './hlm-autocomplete-input';
-import { HlmAutocompleteImports } from '@billy_mcdowell/prmn-angular-v2/autocomplete';
+import { HlmAutocompleteImports } from '../../autocomplete/src';
 
 /**
  * Wrapper component that holds autocomplete state for stories.

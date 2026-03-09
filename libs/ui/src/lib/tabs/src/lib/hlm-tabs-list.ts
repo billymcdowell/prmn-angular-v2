@@ -1,6 +1,6 @@
 import { Directive, input } from '@angular/core';
 import { BrnTabsList } from '@spartan-ng/brain/tabs';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { type VariantProps, cva } from 'class-variance-authority';
 
 export const listVariants = cva(

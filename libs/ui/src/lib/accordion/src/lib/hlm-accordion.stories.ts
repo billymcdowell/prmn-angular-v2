@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmAccordion } from './hlm-accordion';
 import { HlmAccordionImports } from '../index';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmIconImports } from '../../../icon/src/index';
 import { provideIcons } from '@ng-icons/core';
 import { lucideChevronDown, lucideHelpCircle, lucideFileText } from '@ng-icons/lucide';
 

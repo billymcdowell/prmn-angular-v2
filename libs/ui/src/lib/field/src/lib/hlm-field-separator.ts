@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { HlmSeparator } from '@billy_mcdowell/prmn-angular-v2/separator';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmSeparator } from '../../../separator/src/lib/hlm-separator';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Component({
 	selector: 'hlm-field-separator',

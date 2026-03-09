@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnSheetDescription } from '@spartan-ng/brain/sheet';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmSheetDescription]',

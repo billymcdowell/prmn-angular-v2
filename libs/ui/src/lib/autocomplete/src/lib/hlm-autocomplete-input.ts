@@ -8,11 +8,11 @@ import {
 	BrnAutocompleteInput,
 	BrnAutocompleteInputWrapper,
 } from '@spartan-ng/brain/autocomplete';
-import { HlmInputGroupImports } from '@billy_mcdowell/prmn-angular-v2/input-group';
+import { HlmInputGroupImports } from '../../../input-group/src';
 
 @Component({
 	selector: 'hlm-autocomplete-input',
-	imports: [HlmInputGroupImports, NgIcon, BrnAutocompleteAnchor, BrnAutocompleteClear, BrnAutocompleteInput],
+	imports: [...HlmInputGroupImports, NgIcon, BrnAutocompleteAnchor, BrnAutocompleteClear, BrnAutocompleteInput],
 	providers: [provideIcons({ lucideSearch, lucideX })],
 	changeDetection: ChangeDetectionStrategy.OnPush,
 	hostDirectives: [BrnAutocompleteInputWrapper],

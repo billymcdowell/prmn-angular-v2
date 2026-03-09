@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmNativeSelect } from './hlm-native-select';
 import { HlmNativeSelectImports } from '../index';
-import { HlmLabelImports } from '@billy_mcdowell/prmn-angular-v2/label';
+import { HlmLabelImports } from '../../label/src';
 import { FormsModule } from '@angular/forms';
 
 const meta: Meta<HlmNativeSelect> = {

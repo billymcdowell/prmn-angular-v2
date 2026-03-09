@@ -1,7 +1,7 @@
 import { Directive } from '@angular/core';
 import { BrnSeparator } from '@spartan-ng/brain/separator';
-import { hlmSeparatorClass } from '@billy_mcdowell/prmn-angular-v2/separator';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { hlmSeparatorClass } from '../../../separator/src/lib/hlm-separator';
+import { classes } from '../../../utils/src/lib/hlm';
 @Directive({
 	selector: 'div[hlmItemSeparator]',
 	hostDirectives: [{ directive: BrnSeparator, inputs: ['orientation'] }],

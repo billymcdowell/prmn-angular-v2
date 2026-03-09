@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 export const hlmP = 'leading-7 [&:not(:first-child)]:mt-6';
 

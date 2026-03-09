@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnCommandGroup } from '@spartan-ng/brain/command';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmCommandGroup],hlm-command-group',

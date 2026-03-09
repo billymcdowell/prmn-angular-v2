@@ -3,7 +3,7 @@ import { CdkMenuItem, CdkMenuTrigger } from '@angular/cdk/menu';
 import { booleanAttribute, computed, Directive, effect, inject, input } from '@angular/core';
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
 import { createMenuPosition, type MenuAlign, type MenuSide } from '@spartan-ng/brain/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { injectHlmMenubarConfig } from './hlm-menubar-token';
 
 @Directive({

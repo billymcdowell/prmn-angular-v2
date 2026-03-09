@@ -1,5 +1,5 @@
 import { Directive, input } from '@angular/core';
-import { HlmButton } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButton } from '../../../../index';
 
 @Directive({
 	selector: 'button[hlmAlertDialogAction]',

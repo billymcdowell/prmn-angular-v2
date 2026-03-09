@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { provideIcons } from '@ng-icons/core';
 import { lucideEllipsis } from '@ng-icons/lucide';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmIconImports } from '../../../icon/src';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Component({
 	selector: 'hlm-pagination-ellipsis',

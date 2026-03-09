@@ -1,6 +1,6 @@
 import { Directive, input } from '@angular/core';
 import { BrnToggle } from '@spartan-ng/brain/toggle';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { cva, type VariantProps } from 'class-variance-authority';
 
 // TODO invalid styles uses aria-invalid

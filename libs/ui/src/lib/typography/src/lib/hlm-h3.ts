@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 export const hlmH3 = 'scroll-m-20 text-2xl font-semibold tracking-tight';
 

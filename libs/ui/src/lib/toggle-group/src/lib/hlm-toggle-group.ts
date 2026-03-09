@@ -1,8 +1,8 @@
 import { NumberInput } from '@angular/cdk/coercion';
 import { Directive, input, numberAttribute } from '@angular/core';
 import { BrnToggleGroup } from '@spartan-ng/brain/toggle-group';
-import { ToggleVariants } from '@billy_mcdowell/prmn-angular-v2/toggle';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { ToggleVariants } from '../../../toggle/src/lib/hlm-toggle';
+import { classes } from '../../../utils/src/lib/hlm';
 import { provideHlmToggleGroup } from './hlm-toggle-group.token';
 
 @Directive({

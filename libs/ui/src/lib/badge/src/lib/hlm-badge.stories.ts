@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmBadge } from './hlm-badge';
-import { HlmBadgeImports } from '@billy_mcdowell/prmn-angular-v2/badge';
+import { HlmBadgeImports } from '../../badge/src';
 
 const meta: Meta<HlmBadge> = {
   component: HlmBadge,

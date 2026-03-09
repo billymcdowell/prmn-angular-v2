@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmSheet } from './hlm-sheet';
 import { HlmSheetImports } from '../index';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButtonImports } from '../../button/src';
 
 const meta: Meta<HlmSheet> = {
   component: HlmSheet,

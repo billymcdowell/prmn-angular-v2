@@ -1,5 +1,5 @@
 import { Directive, input } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { cva } from 'class-variance-authority';
 
 export const buttonGroupVariants = cva(

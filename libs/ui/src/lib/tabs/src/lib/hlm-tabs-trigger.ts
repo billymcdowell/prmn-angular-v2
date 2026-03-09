@@ -1,6 +1,6 @@
 import { Directive, input } from '@angular/core';
 import { BrnTabsTrigger } from '@spartan-ng/brain/tabs';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmTabsTrigger]',

@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmAlert } from './hlm-alert';
 import type { AlertVariants } from './hlm-alert';
 import { HlmAlertImports } from '../index';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmIconImports } from '../../../icon/src/index';
 import { provideIcons } from '@ng-icons/core';
 import { lucideInfo, lucideAlertCircle } from '@ng-icons/lucide';
 

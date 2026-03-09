@@ -1,5 +1,6 @@
 import { Directive, input } from '@angular/core';
-import { HlmButton, provideBrnButtonConfig } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButton } from '../../../button/src/lib/hlm-button';
+import { provideBrnButtonConfig } from '../../../button/src/lib/hlm-button.token';
 
 @Directive({
 	selector: 'button[hlmAlertDialogCancel]',

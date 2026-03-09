@@ -1,5 +1,5 @@
 import { Directive } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 export const hlmUl = 'my-6 ml-6 list-disc [&>li]:mt-2';
 

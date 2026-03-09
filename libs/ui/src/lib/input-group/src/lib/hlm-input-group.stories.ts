@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmInputGroupImports } from '@billy_mcdowell/prmn-angular-v2/input-group';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmInputGroupImports } from '../../input-group/src';
+import { HlmIconImports } from '../../icon/src';
 import { provideIcons } from '@ng-icons/core';
 import { lucideSearch, lucideAtSign, lucideDollarSign } from '@ng-icons/lucide';
 

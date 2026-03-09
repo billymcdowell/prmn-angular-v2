@@ -1,6 +1,6 @@
 import { CdkMenuBar } from '@angular/cdk/menu';
 import { Directive } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmMenubar],hlm-menubar',

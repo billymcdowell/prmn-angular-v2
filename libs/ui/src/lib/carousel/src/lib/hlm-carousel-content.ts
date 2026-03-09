@@ -1,5 +1,5 @@
 import { Directive, inject } from '@angular/core';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { HlmCarousel } from './hlm-carousel';
 
 @Directive({

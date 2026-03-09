@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmButtonGroup } from './hlm-button-group';
 import { HlmButtonGroupImports } from '../index';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButtonImports } from '../../button/src';
 
 const meta: Meta<HlmButtonGroup> = {
 	title: 'Components/ButtonGroup',

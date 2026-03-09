@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnDialogDescription } from '@spartan-ng/brain/dialog';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmDialogDescription]',

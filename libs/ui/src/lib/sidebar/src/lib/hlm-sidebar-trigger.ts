@@ -1,8 +1,9 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { provideIcons } from '@ng-icons/core';
 import { lucidePanelLeft } from '@ng-icons/lucide';
-import { HlmButton, provideBrnButtonConfig } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmButton } from '../../../button/src/lib/hlm-button';
+import { provideBrnButtonConfig } from '../../../button/src/lib/hlm-button.token';
+import { HlmIconImports } from '../../../icon/src';
 import { HlmSidebarService } from './hlm-sidebar.service';
 
 @Component({

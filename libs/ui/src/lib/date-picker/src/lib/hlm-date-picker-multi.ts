@@ -17,10 +17,10 @@ import { lucideChevronDown } from '@ng-icons/lucide';
 import type { BrnDialogState } from '@spartan-ng/brain/dialog';
 import type { ChangeFn, TouchFn } from '@spartan-ng/brain/forms';
 
-import { HlmCalendarMulti } from '@billy_mcdowell/prmn-angular-v2/calendar';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { HlmPopoverImports } from '@billy_mcdowell/prmn-angular-v2/popover';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmCalendarMulti } from '../../../calendar/src';
+import { HlmIconImports } from '../../../icon/src';
+import { HlmPopoverImports } from '../../../popover/src';
+import { hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 import { injectHlmDatePickerMultiConfig } from './hlm-date-picker-multi.token';
 

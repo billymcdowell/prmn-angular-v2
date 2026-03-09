@@ -1,8 +1,8 @@
 import { Directive } from '@angular/core';
 import { provideIcons } from '@ng-icons/core';
 import { lucideChevronDown } from '@ng-icons/lucide';
-import { provideHlmIconConfig } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { provideHlmIconConfig } from '../../../icon/src/lib/hlm-icon.token';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: 'ng-icon[hlmAccordionIcon], ng-icon[hlmAccIcon]',

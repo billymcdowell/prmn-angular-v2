@@ -1,7 +1,7 @@
 import { NgTemplateOutlet } from '@angular/common';
 import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
-import { HlmSheetImports } from '@billy_mcdowell/prmn-angular-v2/sheet';
-import { classes, hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmSheetImports } from '../../../sheet/src';
+import { classes, hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 import { HlmSidebarService, type SidebarVariant } from './hlm-sidebar.service';
 import { injectHlmSidebarConfig } from './hlm-sidebar.token';

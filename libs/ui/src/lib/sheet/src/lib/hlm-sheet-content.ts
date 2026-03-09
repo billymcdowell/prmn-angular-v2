@@ -1,4 +1,3 @@
-import type { BooleanInput } from '@angular/cdk/coercion';
 import {
 	booleanAttribute,
 	ChangeDetectionStrategy,
@@ -12,10 +11,11 @@ import {
 } from '@angular/core';
 import { provideIcons } from '@ng-icons/core';
 import { lucideX } from '@ng-icons/lucide';
+import type { BooleanInput } from '@angular/cdk/coercion';
 import { injectExposedSideProvider, injectExposesStateProvider } from '@spartan-ng/brain/core';
-import { HlmButton } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmButton } from '../../../button/src/lib/hlm-button';
+import { HlmIconImports } from '../../../icon/src';
+import { classes } from '../../../utils/src/lib/hlm';
 import { cva } from 'class-variance-authority';
 import { HlmSheetClose } from './hlm-sheet-close';
 

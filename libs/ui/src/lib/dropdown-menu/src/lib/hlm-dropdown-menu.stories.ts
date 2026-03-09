@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmDropdownMenuImports } from '@billy_mcdowell/prmn-angular-v2/dropdown-menu';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmDropdownMenuImports } from '../../dropdown-menu/src';
+import { HlmButtonImports } from '../../button/src';
+import { HlmIconImports } from '../../icon/src';
 import { provideIcons } from '@ng-icons/core';
 import {
   lucideChevronDown,

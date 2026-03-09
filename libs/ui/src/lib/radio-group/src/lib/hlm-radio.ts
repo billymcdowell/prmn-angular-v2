@@ -15,7 +15,7 @@ import {
 	Renderer2,
 } from '@angular/core';
 import { BrnRadio, type BrnRadioChange } from '@spartan-ng/brain/radio-group';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 
 @Component({

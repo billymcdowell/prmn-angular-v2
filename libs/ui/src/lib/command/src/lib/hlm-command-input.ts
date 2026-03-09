@@ -2,8 +2,8 @@ import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideSearch } from '@ng-icons/lucide';
 import { BrnCommandInput } from '@spartan-ng/brain/command';
-import { HlmInputGroupImports } from '@billy_mcdowell/prmn-angular-v2/input-group';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmInputGroupImports } from '../../../input-group/src';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Component({
 	selector: 'hlm-command-input',

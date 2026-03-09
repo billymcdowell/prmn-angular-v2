@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnComboboxStatus } from '@spartan-ng/brain/combobox';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmComboboxStatus],hlm-combobox-status',

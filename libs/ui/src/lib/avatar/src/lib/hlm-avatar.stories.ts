@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmAvatar } from './hlm-avatar';
-import { HlmAvatarImports } from '@billy_mcdowell/prmn-angular-v2/avatar';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
+import { HlmAvatarImports } from '../../avatar/src';
+import { HlmIconImports } from '../../icon/src';
 import { provideIcons } from '@ng-icons/core';
 import { lucideUser } from '@ng-icons/lucide';
 

@@ -9,8 +9,8 @@ import {
 	output,
 } from '@angular/core';
 import { BrnDialogContent, BrnDialogState } from '@spartan-ng/brain/dialog';
-import { HlmDialogImports } from '@billy_mcdowell/prmn-angular-v2/dialog';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmDialogImports } from '../../../dialog/src';
+import { hlm } from '../../../utils/src/lib/hlm';
 import { ClassValue } from 'clsx';
 
 @Component({

@@ -1,9 +1,9 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, untracked } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideArrowLeft } from '@ng-icons/lucide';
-import { HlmButton, provideBrnButtonConfig } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmButton, provideBrnButtonConfig } from '../../../button/src';
+import { HlmIcon } from '../../../icon/src/lib/hlm-icon';
+import { hlm } from '../../../utils/src/lib/hlm';
 import { HlmCarousel } from './hlm-carousel';
 
 @Component({

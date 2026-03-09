@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
-import { HlmFormFieldImports } from '@billy_mcdowell/prmn-angular-v2/form-field';
-import { HlmInputImports } from '@billy_mcdowell/prmn-angular-v2/input';
-import { HlmLabelImports } from '@billy_mcdowell/prmn-angular-v2/label';
-import { HlmTextareaImports } from '@billy_mcdowell/prmn-angular-v2/textarea';
+import { HlmFormFieldImports } from '../../form-field/src';
+import { HlmInputImports } from '../../input/src';
+import { HlmLabelImports } from '../../label/src';
+import { HlmTextareaImports } from '../../textarea/src';
 
 const meta: Meta = {
   title: 'Components/Form Field',

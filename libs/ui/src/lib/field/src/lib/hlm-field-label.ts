@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
-import { HlmLabel } from '@billy_mcdowell/prmn-angular-v2/label';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmLabel } from '../../../label/src/lib/hlm-label';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmFieldLabel],hlm-field-label',

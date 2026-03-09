@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
-import { HlmInput, inputVariants } from '@billy_mcdowell/prmn-angular-v2/input';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmInput, inputVariants } from '../../../input/src/lib/hlm-input';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: 'input[hlmSidebarInput]',

@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnAutocompleteStatus } from '@spartan-ng/brain/autocomplete';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmAutocompleteStatus],hlm-autocomplete-status',

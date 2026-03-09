@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideChevronUp } from '@ng-icons/lucide';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmIcon } from '../../../icon/src/lib/hlm-icon';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Component({
 	selector: 'hlm-select-scroll-up',

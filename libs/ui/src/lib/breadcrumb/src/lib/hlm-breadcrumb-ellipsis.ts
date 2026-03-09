@@ -1,8 +1,8 @@
 import { ChangeDetectionStrategy, Component, computed, input } from '@angular/core';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideEllipsis } from '@ng-icons/lucide';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { HlmIcon } from '../../../icon/src/lib/hlm-icon';
+import { hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 
 @Component({

@@ -1,6 +1,6 @@
 import { computed, Directive, inject } from '@angular/core';
 import { BrnSelectLabel } from '@spartan-ng/brain/select';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 import { HlmSelectContent } from './hlm-select-content';
 
 @Directive({

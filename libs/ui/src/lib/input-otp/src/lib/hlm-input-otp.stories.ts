@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { ReactiveFormsModule, FormControl } from '@angular/forms';
 import { BrnInputOtp } from '@spartan-ng/brain/input-otp';
-import { HlmInputOtpImports } from '@billy_mcdowell/prmn-angular-v2/input-otp';
+import { HlmInputOtpImports } from '../../input-otp/src';
 
 const meta: Meta = {
   title: 'Components/Input OTP',

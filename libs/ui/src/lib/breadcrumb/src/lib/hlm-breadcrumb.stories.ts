@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmBreadcrumb } from './hlm-breadcrumb';
-import { HlmBreadCrumbImports } from '@billy_mcdowell/prmn-angular-v2/breadcrumb';
+import { HlmBreadCrumbImports } from '../../breadcrumb/src';
 
 // Use plain <a href> in stories to avoid Router/ActivatedRoute in Storybook.
 // In your app, use <a hlmBreadcrumbLink [link]="['/path']"> for real routing.

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmInputImports } from '@billy_mcdowell/prmn-angular-v2/input';
+import { HlmInputImports } from '../../input/src';
 
 const meta: Meta = {
   title: 'Components/Input',

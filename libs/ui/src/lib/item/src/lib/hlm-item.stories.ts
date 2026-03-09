@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmItemImports } from '@billy_mcdowell/prmn-angular-v2/item';
-import { HlmIconImports } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmItemImports } from '../../item/src';
+import { HlmIconImports } from '../../icon/src';
+import { HlmButtonImports } from '../../button/src';
 import { provideIcons } from '@ng-icons/core';
 import { lucideFileText, lucideMoreVertical, lucideImage } from '@ng-icons/lucide';
 

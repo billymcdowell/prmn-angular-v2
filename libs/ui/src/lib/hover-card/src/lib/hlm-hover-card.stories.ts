@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmHoverCardImports } from '@billy_mcdowell/prmn-angular-v2/hover-card';
-import { HlmAvatarImports } from '@billy_mcdowell/prmn-angular-v2/avatar';
+import { HlmHoverCardImports } from '../../hover-card/src';
+import { HlmAvatarImports } from '../../avatar/src';
 
 const meta: Meta = {
   title: 'Components/Hover Card',

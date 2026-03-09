@@ -3,9 +3,9 @@ import { booleanAttribute, ChangeDetectionStrategy, Component, computed, input }
 import type { RouterLink } from '@angular/router';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideChevronLeft } from '@ng-icons/lucide';
-import type { ButtonVariants } from '@billy_mcdowell/prmn-angular-v2/button';
-import { HlmIcon } from '@billy_mcdowell/prmn-angular-v2/icon';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import type { ButtonVariants } from '../../../button/src';
+import { HlmIcon } from '../../../icon/src';
+import { classes } from '../../../utils/src/lib/hlm';
 import { HlmPaginationLink } from './hlm-pagination-link';
 
 @Component({

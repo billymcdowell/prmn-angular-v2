@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmCard } from './hlm-card';
 import { HlmCardImports } from '../index';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmButtonImports } from '../../button/src';
 
 const meta: Meta<HlmCard> = {
 	title: 'Components/Card',

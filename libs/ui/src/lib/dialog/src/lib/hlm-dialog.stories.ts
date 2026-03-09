@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { HlmDialogImports } from '@billy_mcdowell/prmn-angular-v2/dialog';
-import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2/button';
+import { HlmDialogImports } from '../../dialog/src';
+import { HlmButtonImports } from '../../button/src';
 
 const meta: Meta = {
   title: 'Components/Dialog',

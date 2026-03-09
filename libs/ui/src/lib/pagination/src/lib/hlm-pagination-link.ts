@@ -1,8 +1,8 @@
 import type { BooleanInput } from '@angular/cdk/coercion';
 import { Directive, booleanAttribute, input } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { buttonVariants, type ButtonVariants } from '@billy_mcdowell/prmn-angular-v2/button';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { buttonVariants, type ButtonVariants } from '../../../button/src/lib/hlm-button';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmPaginationLink]',

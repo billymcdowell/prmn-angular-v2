@@ -1,6 +1,6 @@
 import { Directive } from '@angular/core';
 import { BrnLabel } from '@spartan-ng/brain/label';
-import { classes } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { classes } from '../../../utils/src/lib/hlm';
 
 @Directive({
 	selector: '[hlmLabel]',

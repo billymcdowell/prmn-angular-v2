@@ -7,8 +7,8 @@ import {
 	BrnComboboxPopoverTrigger,
 	BrnComboboxTrigger,
 } from '@spartan-ng/brain/combobox';
-import { ButtonVariants, HlmButton } from '@billy_mcdowell/prmn-angular-v2/button';
-import { hlm } from '@billy_mcdowell/prmn-angular-v2/utils';
+import { ButtonVariants, HlmButton } from '../../../button/src';
+import { hlm } from '../../../utils/src/lib/hlm';
 import type { ClassValue } from 'clsx';
 
 @Component({
