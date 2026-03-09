@@ -16,7 +16,7 @@ const config: StorybookConfig = {
       config.output = {};
     }
     // Ensure Storybook assets & chunks load from the GitHub Pages project path
-    config.output.publicPath = '/prmn-angular-v2/';
+    config.output.publicPath = '/prmn-angular-v2';
     return config;
   },
 };
