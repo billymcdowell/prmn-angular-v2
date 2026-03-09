@@ -12,15 +12,6 @@ const config: StorybookConfig = {
     name: '@storybook/angular',
     options: {},
   },
-  webpackFinal: async (config) => {
-    config.output = {
-      ...(config.output ?? {}),
-      publicPath: process.env['NODE_ENV'] === 'production' 
-        ? '/prmn-angular-v2/' 
-        : '/',
-    };
-    return config;
-  },
 };
 
 export default config;
