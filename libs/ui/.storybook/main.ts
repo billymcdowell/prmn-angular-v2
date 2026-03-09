@@ -11,6 +11,14 @@ const config: StorybookConfig = {
     name: '@storybook/angular',
     options: {},
   },
+  webpackFinal: async (config) => {
+    if (!config.output) {
+      config.output = {};
+    }
+    // Ensure Storybook assets & chunks load from the GitHub Pages project path
+    config.output.publicPath = '/prmn-angular-v2/';
+    return config;
+  },
 };
 
 export default config;
