@@ -3,5 +3,9 @@
   "dest": "../../dist/libs/ui",
   "lib": {
     "entryFile": "src/index.ts"
-  }
+  },
+  "assets": [
+    "src/styles.css",
+    "src/theme.css"
+  ]
 }

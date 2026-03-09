@@ -1,0 +1,86 @@
+import {  Meta } from '@storybook/addon-docs/blocks';
+ 
+<Meta title="Getting Started"/>
+
+# PRMN Angular UI Library
+
+This Storybook documents the shared UI component library for the PRMN Angular v2 workspace and shows you how to **consume** it from your own Angular apps.
+
+- **Package name**: `@billy_mcdowell/prmn-angular-v2`
+- **Framework**: Angular 21 (standalone-first)
+- **Styling**: Tailwind CSS + CSS variables
+- **Primitives**: `@spartan-ng/brain`
+
+All components and directives are re-exported from the library root so you can import from `@billy_mcdowell/prmn-angular-v2`.
+
+---
+
+## 1. Install the package
+
+If the library is published to a registry (npm, GitHub Packages, etc.), install it into your app:
+
+```bash
+npm install @billy_mcdowell/prmn-angular-v2
+# or
+pnpm add @billy_mcdowell/prmn-angular-v2
+```
+
+---
+
+## 2. Wire up styles & theme
+
+The UI library ships a ready‑to‑use theme so consumers don't need to re‑create the CSS variables or base styles.
+
+In your consuming app's global stylesheet:
+
+```css
+/* consuming-app/src/styles.css */
+@import '@billy_mcdowell/prmn-angular-v2/styles.css';
+```
+
+That single import:
+
+- Includes the `@spartan-ng/brain` preset (`hlm-tailwind-preset.css`).
+- Applies the library's `theme.css`, which defines the `:root` / `:root.dark` design tokens and base `body` styles.
+
+If you're working inside this monorepo:
+
+- The demo app uses its own `apps/prmn-angular-v2/src/styles.css` with an equivalent theme.
+- Storybook uses `libs/ui/.storybook/preview-styles.css` so `bg-background`, `border-border`, etc. render correctly in stories.
+
+---
+
+## 3. Use components in your Angular app
+
+Most UI primitives export:
+
+- A directive or component (for example, `HlmButton` with selector `button[hlmBtn], a[hlmBtn]`).
+- An `*Imports` array to register them in standalone components or modules (for example, `HlmButtonImports`).
+
+### Example: `HlmButton`
+
+```ts
+// consuming-app/src/app/some-feature.component.ts
+import { Component } from '@angular/core';
+import { HlmButtonImports } from '@billy_mcdowell/prmn-angular-v2';
+
+@Component({
+  standalone: true,
+  selector: 'app-some-feature',
+  imports: [HlmButtonImports],
+  template: `
+    <button hlmBtn variant="default">
+      Click me
+    </button>
+  `,
+})
+export class SomeFeatureComponent {}
+```
+
+**Key points**
+
+- Import from `@billy_mcdowell/prmn-angular-v2`, not deep paths, when consuming the built package.
+- Use the structural selectors (such as `hlmBtn`, `hlmAccordionItem`, `hlmAlertDialogTrigger`) exposed by each primitive.
+- Each component group (accordion, alert, dialog, etc.) follows the same pattern with its own `*Imports` constant.
+
+---

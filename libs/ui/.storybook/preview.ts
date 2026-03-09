@@ -1,9 +1,15 @@
 import { applicationConfig } from '@storybook/angular';
-import { appConfig } from '../../../apps/prmn-angular-v2/src/app/app.config';
+import {
+  ApplicationConfig,
+  provideBrowserGlobalErrorListeners,
+} from '@angular/core';
+import { provideRouter } from '@angular/router';
 
-export const decorators = [
-  applicationConfig(appConfig),
-];
+const storybookAppConfig: ApplicationConfig = {
+  providers: [provideBrowserGlobalErrorListeners(), provideRouter([])],
+};
+
+export const decorators = [applicationConfig(storybookAppConfig)];
 
 export const parameters = {
   docs: {

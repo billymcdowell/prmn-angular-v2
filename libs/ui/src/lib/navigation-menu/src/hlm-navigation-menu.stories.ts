@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/angular';
 import { HlmNavigationMenu } from './hlm-navigation-menu';
 import { HlmNavigationMenuImports } from './index';
-import { HlmIconImports } from '../../icon/src/index';
+import { HlmIconImports } from '../../icon';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import { lucideChevronDown, lucideLayoutDashboard, lucideSettings, lucideUser } from '@ng-icons/lucide';
 
