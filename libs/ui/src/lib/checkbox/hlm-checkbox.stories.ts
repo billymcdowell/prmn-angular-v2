@@ -34,7 +34,12 @@ const meta: Meta<HlmCheckbox> = {
 };
 export default meta;
 
-type Story = StoryObj<HlmCheckbox>;
+type Story = StoryObj<{
+	checked?: boolean;
+	indeterminate?: boolean;
+	disabled?: boolean;
+	required?: boolean;
+}>;
 
 const defaultImports = [HlmCheckbox, NgFor];
 

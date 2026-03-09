@@ -24,7 +24,9 @@ const meta: Meta<HlmCarousel> = {
 };
 export default meta;
 
-type Story = StoryObj<HlmCarousel>;
+type Story = StoryObj<{
+	orientation: 'horizontal' | 'vertical';
+}>;
 
 const defaultImports = [HlmCarouselImports, NgFor];
 

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/angular';
-import { Component, computed, input, signal } from '@angular/core';
+import { Component, Input, computed, signal } from '@angular/core';
 import { HlmAutocompleteInput } from './hlm-autocomplete-input';
 import { HlmAutocompleteImports } from './index';
 
@@ -20,9 +20,9 @@ import { HlmAutocompleteImports } from './index';
       [itemToString]="itemToString"
     >
       <hlm-autocomplete-input
-        [placeholder]="placeholder()"
-        [showSearch]="showSearch()"
-        [showClear]="showClear()"
+        [placeholder]="placeholder"
+        [showSearch]="showSearch"
+        [showClear]="showClear"
       />
       <hlm-autocomplete-content *hlmAutocompletePortal>
         <hlm-autocomplete-list>
@@ -38,9 +38,9 @@ import { HlmAutocompleteImports } from './index';
 class AutocompleteDemoComponent {
   value = signal<string | null>(null);
   search = signal('');
-  placeholder = input('Search...');
-  showSearch = input(true);
-  showClear = input(false);
+  @Input() placeholder = 'Search...';
+  @Input() showSearch = true;
+  @Input() showClear = false;
   itemToString = (item: string): string => item;
 
   private _items = signal<string[]>([

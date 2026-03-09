@@ -3,9 +3,8 @@ import { HlmButtonGroup } from './hlm-button-group';
 import { HlmButtonGroupImports } from './index';
 import { HlmButtonImports } from '../button';
 
-const meta: Meta<HlmButtonGroup> = {
+const meta: Meta = {
 	title: 'Components/ButtonGroup',
-	component: HlmButtonGroup,
 	parameters: {
 		docs: {
 			description: {
@@ -24,7 +23,9 @@ const meta: Meta<HlmButtonGroup> = {
 };
 export default meta;
 
-type Story = StoryObj<HlmButtonGroup>;
+type Story = StoryObj<{
+	orientation: 'horizontal' | 'vertical';
+}>;
 
 const defaultImports = [HlmButtonGroupImports, HlmButtonImports];
 

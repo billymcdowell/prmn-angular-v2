@@ -27,7 +27,10 @@ const meta: Meta<HlmCalendarRange<Date>> = {
 };
 export default meta;
 
-type Story = StoryObj<HlmCalendarRange<Date>>;
+type Story = StoryObj<{
+	captionLayout?: 'label' | 'dropdown' | 'dropdown-months' | 'dropdown-years';
+	disabled?: boolean;
+}>;
 
 const defaultImports = [HlmCalendarImports];
 

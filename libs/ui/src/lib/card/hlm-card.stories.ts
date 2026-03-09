@@ -3,9 +3,8 @@ import { HlmCard } from './hlm-card';
 import { HlmCardImports } from './index';
 import { HlmButtonImports } from '../button';
 
-const meta: Meta<HlmCard> = {
+const meta: Meta = {
 	title: 'Components/Card',
-	component: HlmCard,
 	parameters: {
 		docs: {
 			description: {
@@ -24,7 +23,9 @@ const meta: Meta<HlmCard> = {
 };
 export default meta;
 
-type Story = StoryObj<HlmCard>;
+type Story = StoryObj<{
+	size: 'default' | 'sm';
+}>;
 
 const defaultImports = [HlmCardImports, HlmButtonImports];
 
