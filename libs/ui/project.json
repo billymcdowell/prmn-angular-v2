@@ -84,7 +84,8 @@
       "options": {
         "buildTarget": "ui:build-storybook",
         "staticFilePath": "dist/storybook/ui",
-        "spa": true
+        "spa": true,
+        "publicPath": "/prmn-angular-v2/"
       },
       "configurations": {
         "ci": {
