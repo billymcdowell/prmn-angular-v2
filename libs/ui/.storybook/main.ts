@@ -12,11 +12,11 @@ const config: StorybookConfig = {
     options: {},
   },
   webpackFinal: async (config) => {
-    if (!config.output) {
-      config.output = {};
-    }
-    // Ensure Storybook assets & chunks load from the GitHub Pages project path
-    config.output.publicPath = '/prmn-angular-v2';
+    // Use relative asset paths so Storybook works from any subfolder (e.g. GitHub Pages `/prmn-angular-v2/`)
+    config.output = {
+      ...(config.output ?? {}),
+      publicPath: './',
+    };
     return config;
   },
 };
