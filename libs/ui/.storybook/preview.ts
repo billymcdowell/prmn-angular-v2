@@ -4,12 +4,22 @@ import {
   provideBrowserGlobalErrorListeners,
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
+import { withThemeByClassName } from '@storybook/addon-themes';
 
 const storybookAppConfig: ApplicationConfig = {
   providers: [provideBrowserGlobalErrorListeners(), provideRouter([])],
 };
 
-export const decorators = [applicationConfig(storybookAppConfig)];
+export const decorators = [
+  applicationConfig(storybookAppConfig),
+  withThemeByClassName({
+    themes: {
+      light: '',
+      dark: 'dark',
+    },
+    defaultTheme: 'light',
+  }),
+];
 
 export const parameters = {
   docs: {
