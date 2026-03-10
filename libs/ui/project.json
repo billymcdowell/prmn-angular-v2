@@ -63,8 +63,7 @@
         "configDir": "libs/ui/.storybook",
         "browserTarget": "ui:build-storybook",
         "compodoc": false,
-        "styles": ["libs/ui/.storybook/preview-styles.css"],
-        "publicPath": "/prmn-angular-v2/"
+        "styles": ["libs/ui/.storybook/preview-styles.css"]
       },
       "configurations": {
         "ci": {
@@ -84,8 +83,7 @@
       "options": {
         "buildTarget": "ui:build-storybook",
         "staticFilePath": "dist/storybook/ui",
-        "spa": true,
-        "publicPath": "/prmn-angular-v2/"
+        "spa": true
       },
       "configurations": {
         "ci": {
